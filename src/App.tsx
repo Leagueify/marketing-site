@@ -1,22 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './images/temp-logo.png';
 import hockey from './images/hockey.jpg';
 
 const features = [
   {
     name: 'Payment Processing',
     description:
-      'Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.',
+      'Manage registration and team fees right from the dashboard. Give your players and their families convenience when getting setup',
   },
   {
     name: 'Roster Management',
     description:
-      'Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.',
+      'Help your coaches manage their rosters with ease. Age bracketed divisions that make it simple to structure leagues from day one. ',
   },
   {
     name: 'Email notifications',
     description:
-      'Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.',
+      'No more missed games or practices, quick and reliable email notifications make sure everyone is on the same page.',
   },
   // {
   //   name: 'Player Stats',
@@ -34,7 +34,7 @@ function App() {
             <div className='mx-auto max-w-2xl lg:mx-0'>
               <img
                 className='h-11'
-                src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
+                src={logo}
                 alt='Your Company'
               />
               <div className='hidden sm:mt-32 sm:flex lg:mt-16'>
@@ -60,7 +60,7 @@ function App() {
               <div className='mt-10 flex items-center gap-x-6'>
                 <a
                   href='mailto:michael@leagueify.org'
-                  className='rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
+                  className='rounded-md bg-orange-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600'
                 >
                   Reach out
                 </a>
